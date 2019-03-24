@@ -107,24 +107,14 @@
 
    </script>
     <script>
-        $(document).ready(function(){
-            var url = "https://api.banghasan.com/sholat/format/json/kota";
-            var city_opt = '';
-            var city = [];
+        var url = "https://api.banghasan.com/sholat/format/json/kota";
+        var id, name;
+        var xhr;
 
-            $.get(url, function(data){
-                $.each(data, function(key, items){
-                    kota = items.kota.nama;
-                    id = items.kota.id;
-
-                    if($.inArray(gend,gender) === -1){
-                        city.push(kota);
-                        city_opt += '<option value="'+id+'">'+kota+'</option>'
-                    }
-                });
-
-                $('.wow').html('')
-            });
-        });
+        if(window.XMLHttpRequest){
+            xhr = new XMLHttpRequest();
+        }else{
+            
+        }
     </script>
 @endpush
