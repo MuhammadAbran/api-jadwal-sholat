@@ -20,3 +20,5 @@
     </li>
   </ul>
 @endsection
+
+@stack('script')

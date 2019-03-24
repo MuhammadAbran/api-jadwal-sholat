@@ -15,7 +15,12 @@
                     </div>
                 @endif
 
-                Jadmal Sholat
+                Jadwal Sholat
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+            
+                ISI DISINI
             </div>
         </div>
     </div>
