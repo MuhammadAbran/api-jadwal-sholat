@@ -12,7 +12,7 @@
 
             <div class="ibox-content">
                <div class="row">
-                  <form id="form" method="post">
+                  <form id="form" method="post" action="">
                      <div class="col-md-2"></div>
                      <div class="col-md-4">
                         <label for="kota">Pilih Kota</label>
