@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/home2', 'JadwalController@show')->name('home');
+Route::get('/home2', 'HomeController@show')->name('home');
 
 Auth::routes();
 
