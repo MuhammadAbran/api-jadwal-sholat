@@ -2,7 +2,6 @@
 @section('title', 'Jadwal Sholat')
 @section('user-name', 'Jadwal Sholat KEMENAG')
 @section('user-text', 'Indonesia')
-@section('breadcrumbs', 'Indonesia')
 @section('content')
 <div class="row">
     <div class="col-md-8 col-md-offset-2 animated fadeInRight">
@@ -45,23 +44,23 @@
                       <div id="vertical-timeline" class="vertical-container dark-timeline">
                           <div class="vertical-timeline-block">
                               <div class="vertical-timeline-icon navy-bg">
-                                  <i class="fa fa-user"></i>
+                                  <i class="fa fa-clock-o"></i>
                               </div>
                               <div class="vertical-timeline-content">
                                     <h4>Shubuh <span class="text-navy">15:00 WIB</span></h4>
                               </div>
                           </div>
                           <div class="vertical-timeline-block">
-                              <div class="vertical-timeline-icon navy-bg">
-                                  <i class="fa fa-user"></i>
+                              <div class="vertical-timeline-icon red-bg">
+                                  <i class="fa fa-sun-o"></i>
                               </div>
                               <div class="vertical-timeline-content">
-                                    <h4>Terbit <span class="text-navy">15:00 WIB</span></h4>
+                                    <h4>Terbit <span class="text-danger">15:00 WIB</span></h4>
                               </div>
                           </div>
                           <div class="vertical-timeline-block">
                               <div class="vertical-timeline-icon navy-bg">
-                                  <i class="fa fa-user"></i>
+                                  <i class="fa fa-sun-o"></i>
                               </div>
                               <div class="vertical-timeline-content">
                                     <h4>Dzuhur <span class="text-navy">15:00 WIB</span></h4>
@@ -69,7 +68,7 @@
                           </div>
                           <div class="vertical-timeline-block">
                               <div class="vertical-timeline-icon navy-bg">
-                                  <i class="fa fa-user"></i>
+                                  <i class="fa fa-clock-o"></i>
                               </div>
                               <div class="vertical-timeline-content">
                                     <h4>Ashar <span class="text-navy">15:00 WIB</span></h4>
@@ -77,7 +76,7 @@
                           </div>
                           <div class="vertical-timeline-block">
                               <div class="vertical-timeline-icon navy-bg">
-                                  <i class="fa fa-user"></i>
+                                  <i class="fa fa-clock-o"></i>
                               </div>
                               <div class="vertical-timeline-content">
                                     <h4>Maghrib <span class="text-navy">15:00 WIB</span></h4>
@@ -85,7 +84,7 @@
                           </div>
                           <div class="vertical-timeline-block">
                               <div class="vertical-timeline-icon navy-bg">
-                                  <i class="fa fa-user"></i>
+                                  <i class="fa fa-moon-o"></i>
                               </div>
                               <div class="vertical-timeline-content">
                                     <h4>Isya <span class="text-navy">15:00 WIB</span></h4>
