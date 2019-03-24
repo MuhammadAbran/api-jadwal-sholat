@@ -5,25 +5,95 @@
 @section('breadcrumbs', 'Indonesia')
 @section('content')
 <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 animated fadeInRight">
         <div class="ibox float-e-margins">
-            <div class="ibox-title"><h5>Dashboard</h5>
-              <div class="ibox-tools"> <span class="label label-warning-light pull-right">Welcome</span></div>
+            <div class="ibox-title"><h5>Jadwal Sholat <span class="text-navy" id="kota">Kota Yogyakarta</span> </h5>
+              <div class="ibox-tools"> <span class="label label-primary pull-right">By API Fathimah</span></div>
             </div>
 
             <div class="ibox-content">
-                @if (session('status'))
-                    <div class="alert alert-success">
-                        {{ session('status') }}
-                    </div>
-                @endif
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-4">
+                     <label for="kota">Pilih Kota</label>
+                     <select class="select2_demo_3 form-control">
+                         <option value="777">Kota Yogyakarta</option>
+                         <option value="Bahamas">Bahamas</option>
+                         <option value="Bahrain">Bahrain</option>
+                         <option value="Bangladesh">Bangladesh</option>
+                         <option value="Barbados">Barbados</option>
+                         <option value="Belarus">Belarus</option>
+                         <option value="Belgium">Belgium</option>
+                         <option value="Belize">Belize</option>
+                         <option value="Benin">Benin</option>
+                     </select>
+                  </div>
+                  <div class="col-md-4">
+                     <label for="kota">Pilih Tanggal</label>
+                     <div class="input-group date" id="data_1">
+                        <span class="input-group-addon" style="border-radius: 5px 0 0 5px"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="03/04/2014" style="border-radius: 0 5px 5px 0">
+                     </div>
 
-                Jadwal Sholat
-            <select name="" id="">
-                <option value=""></option>
-            </select>
-            
-                ISI DISINI
+                  </div>
+                  <div class="col-md-2"></div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6">
+                     <strong>Timeline activity</strong>
+                      <div id="vertical-timeline" class="vertical-container dark-timeline">
+                          <div class="vertical-timeline-block">
+                              <div class="vertical-timeline-icon navy-bg">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="vertical-timeline-content">
+                                    <h4>Shubuh <span class="text-navy">15:00 WIB</span></h4>
+                              </div>
+                          </div>
+                          <div class="vertical-timeline-block">
+                              <div class="vertical-timeline-icon navy-bg">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="vertical-timeline-content">
+                                    <h4>Terbit <span class="text-navy">15:00 WIB</span></h4>
+                              </div>
+                          </div>
+                          <div class="vertical-timeline-block">
+                              <div class="vertical-timeline-icon navy-bg">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="vertical-timeline-content">
+                                    <h4>Dzuhur <span class="text-navy">15:00 WIB</span></h4>
+                              </div>
+                          </div>
+                          <div class="vertical-timeline-block">
+                              <div class="vertical-timeline-icon navy-bg">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="vertical-timeline-content">
+                                    <h4>Ashar <span class="text-navy">15:00 WIB</span></h4>
+                              </div>
+                          </div>
+                          <div class="vertical-timeline-block">
+                              <div class="vertical-timeline-icon navy-bg">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="vertical-timeline-content">
+                                    <h4>Maghrib <span class="text-navy">15:00 WIB</span></h4>
+                              </div>
+                          </div>
+                          <div class="vertical-timeline-block">
+                              <div class="vertical-timeline-icon navy-bg">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="vertical-timeline-content">
+                                    <h4>Isya <span class="text-navy">15:00 WIB</span></h4>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3"></div>
+               </div>
             </div>
         </div>
     </div>
