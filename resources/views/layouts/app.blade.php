@@ -20,5 +20,5 @@
     </li>
   </ul>
 @endsection
-
-@stack('script')
+@stack('selectcdn')
+@stack('select2script')
