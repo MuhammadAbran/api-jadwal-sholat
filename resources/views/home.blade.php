@@ -100,6 +100,12 @@
 </div>
 @endsection
 @push('body')
+   <script src="{{ asset('/js/select2.js') }}" charset="utf-8"></script>
+   <script src="{{ asset('/js/date.js') }}" charset="utf-8"></script>
+   <script type="text/javascript">
+      $(".select2_demo_3").select2();
+
+   </script>
     <script>
         $(document).ready(function(){
             var url = "https://api.banghasan.com/sholat/format/json/kota";
@@ -116,7 +122,7 @@
                         city_opt += '<option value="'+id+'">'+kota+'</option>'
                     }
                 });
-            
+
                 $('.wow').html('')
             });
         });
