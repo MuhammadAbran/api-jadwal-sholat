@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use function GuzzleHttp\json_encode;
 
 class HomeController extends Controller
 {
@@ -24,5 +25,12 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function show()
+    {
+        $url = 'https://api.banghasan.com/sholat/format/json/kota';
+
+        dd(json_encode($url));
     }
 }
