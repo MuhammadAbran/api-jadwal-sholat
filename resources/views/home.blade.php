@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Jadwal Sholat')
+@section('user-name', 'Jadwal Sholat KEMENAG')
+@section('user-text', 'Indonesia')
+@section('breadcrumbs', 'Indonesia')
 @section('content')
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
