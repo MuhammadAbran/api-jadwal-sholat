@@ -114,7 +114,9 @@
         if(window.XMLHttpRequest){
             xhr = new XMLHttpRequest();
         }else{
-            
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
         }
+
+        xhr.onread
     </script>
 @endpush
